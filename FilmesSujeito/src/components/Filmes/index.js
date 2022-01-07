@@ -1,13 +1,30 @@
-import React,{Component} from "react";
-import { View, Text } from "react-native";
+import React, { Component } from "react";
+import { View, Text, Image, TouchableOpacity } from "react-native";
+import styles from "../../styles/styles";
 
-class Filmes extends Component{
-    render(){
-        return(
-<View>
-<Text>{this.props.data.nome} </Text>
+class Filmes extends Component {
+    render() {
+        const {nome, foto} = this.props.data; // desconstruir função javascript
+        return (
+            <View>
+                <View style={styles.card}>
+                    <Text style={styles.titulo}>{nome} </Text>
 
-</View>
+                    <Image
+                        source={{ uri: foto }}
+                        style={styles.capa}
+                    />
+                    <View style={styles.areaBotao}>
+                        <TouchableOpacity style={styles.botao} 
+                        onPress={() => alert(this.props.data.sinopse)}
+                        >
+                            <Text style={styles.botaoTexto}>LEIA MAIS</Text>
+
+                        </TouchableOpacity>
+                    </View>
+
+                </View>
+            </View>
 
         )
     }
