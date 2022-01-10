@@ -30,5 +30,4 @@ class Filmes extends Component {
     }
 }
 
-
 export default Filmes;

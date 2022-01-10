@@ -1,0 +1,14 @@
+com/filmessujeito/MainApplication.java
+ com.filmessujeito.MainApplication
+ com.filmessujeito.MainApplication$1
+com/filmessujeito/ReactNativeFlipper.java
+ com.filmessujeito.ReactNativeFlipper
+ com.filmessujeito.ReactNativeFlipper$1
+ com.filmessujeito.ReactNativeFlipper$2
+ com.filmessujeito.ReactNativeFlipper$2$1
+com/filmessujeito/BuildConfig.java
+ com.filmessujeito.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/filmessujeito/MainActivity.java
+ com.filmessujeito.MainActivity
